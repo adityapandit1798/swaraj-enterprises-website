@@ -4,7 +4,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/swaraj-enterprises-website/', // Replace with your repo name
+  base: './', // Replace with your repo name
   build: {
     outDir: 'dist', // Output directory for the build
   },
